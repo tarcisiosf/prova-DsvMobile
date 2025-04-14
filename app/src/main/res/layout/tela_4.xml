@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tela4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tela de Cadastro de Contato"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:background="@android:color/holo_red_dark"/>
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:src="@drawable/baseline_account_circle_24" />
+
+        <EditText
+            android:id="@+id/nome_contato"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="0dp"
+            android:background="@android:color/holo_red_dark"
+            android:hint="Nome"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/telefonePrincipal"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="32dp"
+            android:background="@android:color/holo_red_dark"
+            android:hint="Telefone Principal"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/telefoneSecundario"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="32dp"
+            android:background="@android:color/holo_red_dark"
+            android:hint="Telefone Secundário"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/dataNascimento"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="32dp"
+            android:background="@android:color/holo_red_dark"
+            android:hint="Data de Nascimento"
+            android:inputType="date"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/email_contato"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="32dp"
+            android:background="@android:color/holo_red_dark"
+            android:hint="E-mail"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/endereco"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="32dp"
+            android:background="@android:color/holo_red_dark"
+            android:hint="Endereço(rua, quadra, lote, bairro, cidade, estado, CEP)"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="12dp" />
+
+        <EditText
+            android:id="@+id/cpf"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="32dp"
+            android:background="@android:color/holo_red_dark"
+            android:hint="CPF"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/btn_cadasContato"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@android:color/holo_red_light"
+            android:text="Cadastrar"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/btn_listaContato"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="0dp"
+            android:backgroundTint="@android:color/holo_blue_light"
+            android:text="Lista de Contatos"
+            android:textColor="@color/black"
+            android:textSize="13dp" />
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

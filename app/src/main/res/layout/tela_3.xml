@@ -2,14 +2,13 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
+    android:id="@+id/tela3"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
     android:gravity="center"
     android:padding="16dp"
     tools:context=".MainActivity">
-
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -20,72 +19,78 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Tela de Login"
+            android:text="Tela de Cadastro Usuário"
             android:textColor="@color/white"
             android:textAlignment="center"
             android:background="@android:color/holo_red_dark"/>
 
-
         <ImageView
             android:layout_width="160dp"
             android:layout_height="160dp"
-            android:src="@drawable/baseline_account_circle_24"/>
+            android:src="@drawable/baseline_account_circle_24" />
 
         <EditText
-            android:id="@+id/email1"
+            android:id="@+id/nome_cadas"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="32dp"
+            android:background="@android:color/holo_red_dark"
+            android:hint="Nome"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/email_cadas"
             android:layout_width="match_parent"
             android:layout_height="30dp"
             android:layout_marginTop="32dp"
             android:background="@android:color/holo_red_dark"
             android:hint="E-mail"
-            android:textAlignment="center"
             android:inputType="text"
+            android:textAlignment="center"
             android:textColor="@color/white"
             android:textColorHint="@color/white"
-            android:textSize="20sp"/>
+            android:textSize="15dp" />
 
         <EditText
-            android:id="@+id/senha1"
+            android:id="@+id/senha_cadas1"
             android:layout_width="match_parent"
             android:layout_height="30dp"
             android:layout_marginTop="32dp"
             android:background="@android:color/holo_red_dark"
             android:hint="Senha"
-            android:textAlignment="center"
             android:inputType="textPassword"
+            android:textAlignment="center"
             android:textColor="@color/white"
             android:textColorHint="@color/white"
-            android:textSize="20sp"/>
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/senha_cadas2"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="32dp"
+            android:background="@android:color/holo_red_dark"
+            android:hint="Repita a Senha"
+            android:inputType="textPassword"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="15dp" />
 
         <Button
-            android:id="@+id/login_btn"
+            android:id="@+id/btn_cadasUsuario"
             android:layout_width="150dp"
             android:layout_height="40dp"
             android:layout_marginTop="32dp"
             android:backgroundTint="@android:color/holo_red_light"
-            android:text="Login"
+            android:text="Cadastrar"
             android:textColor="@color/white"
             android:textSize="15dp" />
 
-        <Button
-            android:id="@+id/recuperarsenha"
-            android:layout_width="160dp"
-            android:layout_height="35dp"
-            android:layout_marginTop="30dp"
-            android:background=""
-            android:text="Recuperar senha"
-            android:textColor="@color/black"
-            android:textSize="12dp" />
-
-        <Button
-            android:id="@+id/cadastrar_usuario"
-            android:layout_width="160dp"
-            android:layout_height="35dp"
-            android:layout_marginTop="0dp"
-            android:background=""
-            android:text="Cadastrar Usuário"
-            android:textColor="@color/black"
-            android:textSize="12dp" />
 
     </LinearLayout>
 
