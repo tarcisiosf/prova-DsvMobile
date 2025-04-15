@@ -89,7 +89,8 @@
             android:backgroundTint="@android:color/holo_red_light"
             android:text="Cadastrar"
             android:textColor="@color/white"
-            android:textSize="15dp" />
+            android:textSize="15dp"
+            android:onClick="btn_cadasUsuario"/>
 
 
     </LinearLayout>

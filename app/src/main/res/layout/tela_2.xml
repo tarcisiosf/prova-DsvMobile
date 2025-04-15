@@ -76,7 +76,8 @@
             android:backgroundTint="@android:color/holo_red_light"
             android:text="Recuperar"
             android:textColor="@color/white"
-            android:textSize="15dp" />
+            android:textSize="15dp"
+            android:onClick="btn_recuperar"/>
 
 
     </LinearLayout>

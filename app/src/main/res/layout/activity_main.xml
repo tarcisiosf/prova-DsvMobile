@@ -65,7 +65,8 @@
             android:backgroundTint="@android:color/holo_red_light"
             android:text="Login"
             android:textColor="@color/white"
-            android:textSize="15dp" />
+            android:textSize="15dp"
+            android:onClick="login_btn"/>
 
         <Button
             android:id="@+id/recuperarsenha"
@@ -75,7 +76,8 @@
             android:background=""
             android:text="Recuperar senha"
             android:textColor="@color/black"
-            android:textSize="12dp" />
+            android:textSize="12dp"
+            android:onClick="recuperarsenha"/>
 
         <Button
             android:id="@+id/cadastrar_usuario"
@@ -85,7 +87,8 @@
             android:background=""
             android:text="Cadastrar Usuário"
             android:textColor="@color/black"
-            android:textSize="12dp" />
+            android:textSize="12dp"
+            android:onClick="cadastrar_usuario"/>
 
     </LinearLayout>
 

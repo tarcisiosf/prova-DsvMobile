@@ -128,7 +128,8 @@
             android:backgroundTint="@android:color/holo_red_light"
             android:text="Cadastrar"
             android:textColor="@color/white"
-            android:textSize="15dp" />
+            android:textSize="15dp"
+            android:onClick="btn_cadasContato"/>
 
         <Button
             android:id="@+id/btn_listaContato"
@@ -138,7 +139,8 @@
             android:backgroundTint="@android:color/holo_blue_light"
             android:text="Lista de Contatos"
             android:textColor="@color/black"
-            android:textSize="13dp" />
+            android:textSize="13dp"
+            android:onClick="btn_listaContato"/>
 
 
     </LinearLayout>
