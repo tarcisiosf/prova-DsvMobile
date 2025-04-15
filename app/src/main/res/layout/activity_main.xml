@@ -74,7 +74,7 @@
             android:layout_marginTop="30dp"
             android:background="@android:color/white"
             android:text="Recuperar senha"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textSize="12dp"
             android:onClick="recuperarsenha"/>
 
@@ -85,7 +85,7 @@
             android:layout_marginTop="0dp"
             android:background="@android:color/white"
             android:text="Cadastrar Usuário"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textSize="12dp"
             android:onClick="cadastrar_usuario"/>
 
