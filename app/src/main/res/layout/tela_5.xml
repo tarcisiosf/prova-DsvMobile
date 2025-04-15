@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/tela5">
+    android:id="@+id/tela5"
+    tools:context="tela5">
 
     <LinearLayout
         android:layout_width="match_parent"
